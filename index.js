@@ -96,9 +96,9 @@ inquirer
         <!-- 
     /* name, location, bio, LinkedIn URL, and GitHub URL. */ -->
     
-    <h1>Name:${answers.name}</h1>
-    <h2>Location:${answers.location}</h2>
-    <p>Bio:${answers.bio}</p>
+    <h1>${answers.name}</h1>
+    <h2>${answers.location}</h2>
+    <p>${answers.bio}</p>
     <a href="${answers.linkedin}">Linkedin</a>
     <a href="${answers.github}">GitHub</a>
     
